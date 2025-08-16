@@ -1,0 +1,63 @@
+*{
+      font-family: "Inter", sans-serif;
+
+}
+body{
+    background-color: #121212;
+}
+.banner-suscripcion{
+    background-image: linear-gradient(to right top, #1b0728, #290e40, #3a1259, #4c1573, #5f178e);
+    height: 30vh;
+    & h3{
+        color: white;
+        font-weight: 500;
+    }
+    & .ver-planes{
+        color: white;
+        background-color: #BF160A;
+        & a{
+            text-decoration: none;
+            color: white;
+        }
+        
+    }
+}
+
+.planes {
+  background: url("../assets/img/megan.webp") no-repeat center center ;
+    background-size: cover;
+  background-position: center; 
+  min-height: 100vh;
+  filter: grayscale(40%);
+ 
+}
+.suscribirme{
+     color: white;
+        background-color: #BF160A;
+        & a{
+            text-decoration: none;
+            color: white;
+        }
+}
+.card-violeta{
+    background-color: #380858de ;
+}
+@media (min-width: 768px) {
+  h3 {
+    font-size:45px ; /* en pantallas md hacia arriba */
+  }
+  .ver-planes{
+    width: 200px;
+    height: 50px;
+  }
+}
+@media (min-width: 1024px) {
+      h3 {
+    font-size:35px ; /* en pantallas md hacia arriba */
+  }
+    .ver-planes{
+    width: 150px;
+    height: 40px;
+  }
+  
+}
