@@ -1,0 +1,12 @@
+.navbar{
+    background-color: #000000cc;
+    & .navbar-brand{
+        border: 1px solid #992E92;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    & .borde-formu{
+        border: 2px solid #992E92;
+        box-shadow: 0 0 5px #992E92;
+    }
+}
