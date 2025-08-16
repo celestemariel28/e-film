@@ -1,12 +1,44 @@
+
+header{
+  background-image: url("/assets/img/fondonav.webp");
+  background-size: cover; 
+  background-position: center; 
+  height: 500px; 
+  position: relative;
+}
+
+header .navbar {
+  background: rgba(0, 0, 0, 0.6); /* opcional: un fondo semitransparente para que el nav se lea */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 .navbar{
     background-color: #000000cc;
     & .navbar-brand{
         border: 1px solid #992E92;
-        padding: 10px;
+        padding: 5px 8px;
         border-radius: 10px;
+    }
+    & .navbar-brand:hover{
+        background-color: #992E92;
     }
     & .borde-formu{
         border: 2px solid #992E92;
         box-shadow: 0 0 5px #992E92;
+    }
+    & .nav-link:hover{
+        color: #992E92;
+    }
+    & .dropdown-menu{
+        background-color: #992e92e8;
+    }
+    & .dropdown-item{
+        color: white;
+    }
+    & .dropdown-item:hover{
+        background-color: rgba(255, 255, 255, 0.404);
+        color: #992E92;
     }
 }
