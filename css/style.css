@@ -26,9 +26,9 @@ body{
 .planes {
   background: url("../assets/img/megan.webp") no-repeat center center ;
     background-size: cover;
-  background-position: center; 
+  background-position: left; 
   min-height: 100vh;
-  filter: grayscale(40%);
+
  
 }
 .suscribirme{
@@ -49,6 +49,9 @@ body{
   .ver-planes{
     width: 200px;
     height: 50px;
+  }
+  .planes{
+    background-position: center;
   }
 }
 @media (min-width: 1024px) {
