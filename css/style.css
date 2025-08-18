@@ -1,23 +1,25 @@
 *{
       font-family: "Inter", sans-serif;
+      color: white;
 
 }
 body{
     background-color: #121212;
+    
 }
 .banner-suscripcion{
     background-image: linear-gradient(to right top, #1b0728, #290e40, #3a1259, #4c1573, #5f178e);
-    height: 30vh;
+    height: 40vh;
     & h3{
-        color: white;
+     
         font-weight: 500;
     }
     & .ver-planes{
-        color: white;
         background-color: #BF160A;
         & a{
+          color: white;
             text-decoration: none;
-            color: white;
+            
         }
         
     }
@@ -32,15 +34,33 @@ body{
  
 }
 .suscribirme{
-     color: white;
         background-color: #BF160A;
         & a{
             text-decoration: none;
             color: white;
+           
         }
 }
 .card-violeta{
     background-color: #380858de ;
+}
+.modal-content{
+  background-color: rgba(0, 0, 0, 0.733);
+
+
+}
+.modal-header .btn-close{
+  background-color: aliceblue;
+
+}
+.modal-footer{
+  & a {
+    color: white;
+    text-decoration: none;
+  }
+}
+.form-control{
+  background-color: #416fc388;
 }
 @media (min-width: 768px) {
   h3 {
