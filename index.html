@@ -6,12 +6,14 @@
     <title>e-Film</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark ">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Iniciar Sesión</a>
+          <a class="navbar-brand" href="#" data-bs-toggle="modal" data-bs-target="#modal">Iniciar Sesión</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -57,6 +59,43 @@
     </header>
     <main></main>
     <footer></footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header justify-content-center position-relative">
+            <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Inicar Sesión</h1>
+            <button type="button" class="btn-close btn-close-white position-absolute end-0 me-2" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <input type="email" class="form-control text-white" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico">
+              </div>
+              <div class="mb-3">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label text-white" for="exampleCheck1">Recordar contraseña</label>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Iniciar Sesión</button>
+              <div class="text-center my-3 text-white">
+                <span>- o continuar con -</span>
+              </div>
+              <button type="button" class="btn btn-outline-danger w-100 mb-2">
+                <i class="bi bi-google me-2"></i> Google
+              </button>
+              <button type="button" class="btn btn-outline-primary w-100">
+                <i class="bi bi-facebook me-2"></i> Facebook
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
   </body>
 </html>
