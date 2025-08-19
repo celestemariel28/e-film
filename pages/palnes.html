@@ -19,38 +19,47 @@
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <header></header>
+    <header>
+    </header>
     <main>
       <section class="planes d-flex align-items-center text-center text-white">
         <div class="container">
           <h2>Todo el cine que amás,<br />en un solo lugar</h2>
           <p>Accedé a miles de películas y series en HD y sin cortes</p>
-            <button type="button" class="btn suscribirme  btn-danger"  data-bs-toggle="modal" data-bs-target="#exampleModal"><a href="#">Suscribirme</a></button>
+          <button
+            type="button"
+            class="btn suscribirme btn-danger"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            <a href="#">Suscribirme</a>
+          </button>
           <div class="row justify-content-center mt-4">
-            <div class=" col-12 col-md-3 m-3">
+            <div class="col-12 col-md-3 m-3">
               <div class="card card-violeta text-white p-3">
                 <h4>$4,99</h4>
-                <p>HD </p>
+                <p>HD</p>
                 <p>1 dispositivo</p>
                 <p>Descargas Offline</p>
               </div>
             </div>
-            <div class=" col-12 col-md-3  m-3">
+            <div class="col-12 col-md-3 m-3">
               <div class="card card-violeta text-white p-3">
-               <h4>$7,99</h4>
-                <p>HD </p>
+                <h4>$7,99</h4>
+                <p>HD</p>
                 <p>2 dispositivo</p>
                 <p>Descargas Offline</p>
               </div>
             </div>
-            <div class="col-12 col-md-3  m-3">
+            <div class="col-12 col-md-3 m-3">
               <div class="card card-violeta text-white p-3">
                 <h4>$9,99</h4>
-                <p>HD </p>
+                <p>HD</p>
                 <p>3 dispositivo</p>
                 <p>Descargas Offline</p>
               </div>
             </div>
+            <div class="col-12"><a href="../index.html" class="btn  btn-secondary">Vovler </a></div>
           </div>
         </div>
       </section>
@@ -61,40 +70,84 @@
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
-   <!--! Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title  fs-5" id="exampleModalLabel">Formulario de Suscripcion</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <form>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Nombre</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Apellido</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
-</form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger"><a href="">Enviar</a></button>
+    <!--! Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Formulario de Suscripcion
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Nombre</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Apellido</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger">
+              <a href="">Enviar</a>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
   </body>
 </html>
