@@ -14,10 +14,15 @@ header{
         border: 1px solid #992E92;
         padding: 5px 8px;
         border-radius: 10px;
+        & a{
+            font-weight: 100;
+        }
     }
+
     & .navbar-brand:hover{
         background-color: #992E92;
     }
+
     & .borde-formu{
         border: 2px solid #992E92;
         box-shadow: 0 0 5px #992E92;
