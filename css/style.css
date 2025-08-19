@@ -1,0 +1,19 @@
+body{
+    background-color: #121212;
+    color: white;
+}
+main{
+    min-height: 100vh;
+}
+.navegacion ul {
+    list-style: none;
+    padding: 0;
+    & a {
+        color: white;
+    }
+}
+@media (min-width: 768px) {
+  .logo-e-film{
+    width: 150px;
+  }
+}
