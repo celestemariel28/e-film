@@ -1,0 +1,45 @@
+.seccion-contacto{
+    background-color: #121212;
+    padding: 40px 10px;
+    /*seccion preguntas */
+    & .seccion-preguntas{
+        background-color: #1b072870;
+        padding: 20px;
+        border-radius: 10px;
+        height: 100%;
+    }
+    & .accordion-button{
+        background-color: #380858;
+        color: white;
+    }
+    & .accordion-button:not(.collapsed) {/*se hace mas oscuro header*/
+        background-color: #180922;
+        color: white;
+    }
+    & .accordion-button::after {/*para q la flecha se haga de color blanco*/
+    filter: invert(1); 
+    }
+    & .accordion-collapse{
+        background-color: #380858e8;
+        color: white;
+    }
+    /*seccion ubicacion*/
+    & .seccion-ubicacion{
+        background-color: #1B0728;
+        padding: 20px;
+        border-radius: 10px;
+        & .container a img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+    }
+    & .titulo2{
+        margin-bottom: 20px;
+    }
+    & a{
+        text-decoration: none;
+        color: white;
+    }
+    
+}
