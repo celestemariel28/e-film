@@ -16,7 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/planes.css" />
   </head>
   <body>
     <header>
@@ -26,14 +26,9 @@
         <div class="container">
           <h2>Todo el cine que amás,<br />en un solo lugar</h2>
           <p>Accedé a miles de películas y series en HD y sin cortes</p>
-          <button
-            type="button"
-            class="btn suscribirme btn-danger"
+            <a href="#"  class="btn suscribirme btn-danger"
             data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
-          >
-            <a href="#">Suscribirme</a>
-          </button>
+            data-bs-target="#exampleModal-1">Suscribirme</a>
           <div class="row justify-content-center mt-4">
             <div class="col-12 col-md-3 m-3">
               <div class="card card-violeta text-white p-3">
@@ -73,13 +68,13 @@
     <!--! Modal -->
     <div
       class="modal fade"
-      id="exampleModal"
+      id="exampleModal-1"
       tabindex="-1"
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
     >
       <div class="modal-dialog">
-        <div class="modal-content">
+        <div class="modal-content-planes">
           <div class="modal-header">
             <h1 class="modal-title fs-5" id="exampleModalLabel">
               Formulario de Suscripcion
@@ -91,7 +86,7 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="modal-body">
+          <div class="modal-body-planes">
            <form>
   <div class="mb-3">
     <label for="nombre" class="form-label">Nombre</label>

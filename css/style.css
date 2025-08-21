@@ -25,61 +25,6 @@ body{
         
     }
 }
-
-.planes {
-  background: url("../assets/img/megan.webp") no-repeat center center ;
-    background-size: cover;
-  background-position: left; 
-  min-height: 100vh;
-}
-.suscribirme{
-        background-color: #BF160A;
-        & a{
-            text-decoration: none;
-            color: white;
-           
-        }
-}
-.card-violeta{
-    background-color: #380858de ;
-}
-
-.modal-header .btn-close{
-  background-color: aliceblue;
-
-}
-.modal-footer{
-  & a {
-    color: white;
-    text-decoration: none;
-  }
-}
-.form-control{
-  background-color: #416fc388;
-}
-@media (min-width: 768px) {
-  h3 {
-    font-size:45px ; /* en pantallas md hacia arriba */
-  }
-  .ver-planes{
-    width: 200px;
-    height: 50px;
-  }
-  .planes{
-    background-position: center;
-  }
-}
-@media (min-width: 1024px) {
-      h3 {
-    font-size:35px ; /* en pantallas md hacia arriba */
-  }
-    .ver-planes{
-    width: 150px;
-    height: 40px;
-  }
-  
-}
-
 /* Todo header */
 header{
   background-image: url("/assets/img/fondonav.webp");
@@ -122,6 +67,10 @@ header{
         background-color: rgba(255, 255, 255, 0.404);
         color: #992E92;
     }
+}
+.buscador{
+  background-color: rgba(255, 255, 255, 0.767);
+  border-radius: 50px;
 }
 .overlay{
   position: absolute;
