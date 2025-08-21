@@ -1,3 +1,4 @@
+ /*banner-suscripcion*/
 *{
       font-family: "Inter", sans-serif;
       color: white;
@@ -42,11 +43,7 @@ body{
 .card-violeta{
     background-color: #380858de ;
 }
-.modal-content{
-  background-color: rgba(0, 0, 0, 0.733);
 
-
-}
 .modal-header .btn-close{
   background-color: aliceblue;
 
@@ -82,3 +79,62 @@ body{
   }
   
 }
+
+/* Todo header */
+header{
+  background-image: url("/assets/img/fondonav.webp");
+  background-size: cover; 
+  background-position: center; 
+  height: 500px; 
+  position: relative;
+
+}
+.navbar{
+    background-color: #000000cc;
+    z-index: 2;
+    & .navbar-brand{
+        border: 1px solid #992E92;
+        padding: 5px 8px;
+        border-radius: 10px;
+        & a{
+            font-weight: 100;
+        }
+    }
+
+    & .navbar-brand:hover{
+        background-color: #992E92;
+    }
+
+    & .borde-formu{
+        border: 2px solid #992E92;
+        box-shadow: 0 0 5px #992E92;
+    }
+    & .nav-link:hover{
+        color: #992E92;
+    }
+    & .dropdown-menu{
+        background-color: #992e92e8;
+    }
+    & .dropdown-item{
+        color: white;
+    }
+    & .dropdown-item:hover{
+        background-color: rgba(255, 255, 255, 0.404);
+        color: #992E92;
+    }
+}
+.overlay{
+  position: absolute;
+  inset: 0;
+  background-color: #1b072870;
+  z-index: 1;
+}
+/*--------------- iniciar sesion---------------------------*/
+.modal-header1{
+    background-color: #1b0728c9;
+}
+.modal-content2{
+    background-color: #000000d2;
+}
+
+
