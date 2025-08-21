@@ -46,7 +46,7 @@ header{
         font-size: 10px;
         font-weight: 400;       
     }
-    }
+
 
     & .navbar-brand:hover{
         background-color: #f557ea;
@@ -72,7 +72,7 @@ header{
         background-color: rgba(255, 255, 255, 0.404);
         color: #992E92;
     }
-
+}
 .buscador{
   background-color: rgba(255, 255, 255, 0.767);
   border-radius: 50px;
@@ -84,11 +84,13 @@ header{
   z-index: 1;
 }
 /*--------------- iniciar sesion---------------------------*/
-.modal-header1{
+.modal-index{
     background-color: #1b0728c9;
 }
-.modal-content2{
+.modal-contenido{
     background-color: #000000d2;
 }
-
+.modal-contentent{
+    color: black;
+}
 
