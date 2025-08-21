@@ -1,13 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>e-Film</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
@@ -57,14 +63,28 @@
         <img src="/assets/img/e-film.png" alt="logo" width="200" >
       </div>
     </header>
-    <main></main>
+     <main>
+      <section class="container-fluid">
+        <div class="row">
+          <div class="col banner-suscripcion p-3">
+            <h3 class="text-center">Suscribite y disfruta</h3>
+            <h3 class="text-center">contenido ilimitado</h3>
+            <div
+              class="col p-3 d-flex justify-content-center align-items-center"
+            >
+              <button type="button" class="btn ver-planes   btn-danger"><a href="./pages/palnes.html">Ver Planes</a></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
 
     <!-- Modal -->
     <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header justify-content-center position-relative">
+        <div class="modal-content2">
+          <div class="modal-header1 justify-content-center position-relative">
             <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Inicar Sesión</h1>
             <button type="button" class="btn-close btn-close-white position-absolute end-0 me-2" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
@@ -97,5 +117,6 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
   </body>
 </html>
