@@ -1,4 +1,86 @@
+ /*banner-suscripcion*/
+*{
+      font-family: "Inter", sans-serif;
+      color: white;
 
+}
+body{
+    background-color: #121212;
+    
+}
+.banner-suscripcion{
+    background-image: linear-gradient(to right top, #1b0728, #290e40, #3a1259, #4c1573, #5f178e);
+    height: 40vh;
+    & h3{
+     
+        font-weight: 500;
+    }
+    & .ver-planes{
+        background-color: #BF160A;
+        & a{
+          color: white;
+            text-decoration: none;
+            
+        }
+        
+    }
+}
+
+.planes {
+  background: url("../assets/img/megan.webp") no-repeat center center ;
+    background-size: cover;
+  background-position: left; 
+  min-height: 100vh;
+}
+.suscribirme{
+        background-color: #BF160A;
+        & a{
+            text-decoration: none;
+            color: white;
+           
+        }
+}
+.card-violeta{
+    background-color: #380858de ;
+}
+
+.modal-header .btn-close{
+  background-color: aliceblue;
+
+}
+.modal-footer{
+  & a {
+    color: white;
+    text-decoration: none;
+  }
+}
+.form-control{
+  background-color: #416fc388;
+}
+@media (min-width: 768px) {
+  h3 {
+    font-size:45px ; /* en pantallas md hacia arriba */
+  }
+  .ver-planes{
+    width: 200px;
+    height: 50px;
+  }
+  .planes{
+    background-position: center;
+  }
+}
+@media (min-width: 1024px) {
+      h3 {
+    font-size:35px ; /* en pantallas md hacia arriba */
+  }
+    .ver-planes{
+    width: 150px;
+    height: 40px;
+  }
+  
+}
+
+/* Todo header */
 header{
   background-image: url("/assets/img/fondonav.webp");
   background-size: cover; 
@@ -48,10 +130,11 @@ header{
   z-index: 1;
 }
 /*--------------- iniciar sesion---------------------------*/
-.modal-header{
+.modal-header1{
     background-color: #1b0728c9;
 }
-.modal-content{
+.modal-content2{
     background-color: #000000d2;
 }
+
 
