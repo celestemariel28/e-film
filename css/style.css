@@ -1,3 +1,20 @@
+
+main{
+    min-height: 100vh;
+}
+.navegacion ul {
+    list-style: none;
+    padding: 0;
+    & a {
+        color: white;
+    }
+}
+@media (min-width: 768px) {
+  .logo-e-film{
+    width: 150px;
+  }
+}
+
  /*banner-suscripcion*/
 *{
       font-family: "Inter", sans-serif;
@@ -6,7 +23,7 @@
 }
 body{
     background-color: #121212;
-    
+    color: white;
 }
 .banner-suscripcion{
     background-image: linear-gradient(to right top, #1b0728, #290e40, #3a1259, #4c1573, #5f178e);
