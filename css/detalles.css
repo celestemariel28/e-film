@@ -11,3 +11,31 @@ min-height: 100vh;
     font-weight: 500;
     margin: 0;
 }
+@media (min-width: 768px) {
+  .contenedor-de-img{
+    display: flex;
+    justify-content: center;
+  }
+  .portada-peli{
+    width: 400px;
+    display: flex;
+  }
+  .logos-detalle{
+    width: 5%;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .contenedor-de-img{
+    display: flex;
+    justify-content: start;
+  }
+  .portada-peli{
+    width:400px;
+    display: flex;
+  }
+  .logos-detalle{
+    width: 5%;
+  }
+  
+}
