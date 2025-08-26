@@ -4,6 +4,49 @@ background: linear-gradient(75deg,rgba(85, 4, 4, 1) 27%, rgba(0, 0, 0, 1) 81%);
   background-attachment: fixed;  /*TODO: mantiene el degradado continuo*/
     color: white;
 }
+.navbar{
+    background-color: #000000cc;
+    z-index: 2;
+    & .navbar-brand{
+        border: 1px solid #992E92;
+        padding: 5px 8px;
+        border-radius: 10px;
+        width: 100px;
+        height: 25px;
+        font-size: 10px;
+        font-weight: 400;       
+    }
+
+
+    & .navbar-brand:hover{
+        background-color: #f557ea;
+    }
+
+    & .borde-formu{
+        border: 2px solid #992E92;
+        box-shadow: 0 0 5px #992E92;
+        height: 30px;
+        border-radius: 50px;
+
+    }
+    & .nav-link:hover{
+        color: #992E92;
+    }
+    & .dropdown-menu{
+        background-color: #992e92e8;
+    }
+    & .dropdown-item{
+        color: white;
+    }
+    & .dropdown-item:hover{
+        background-color: rgba(255, 255, 255, 0.404);
+        color: #992E92;
+    }
+  }
+.buscador{
+  background-color: rgba(255, 255, 255, 0.767);
+  border-radius: 50px;
+}
 .detalles-pelicula {
   position: relative; /* Necesario para que el overlay se posicione dentro */
   background-image: url(../assets/img/fondo-venganza.png);
