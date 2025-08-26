@@ -27,7 +27,9 @@ background: linear-gradient(75deg,rgba(85, 4, 4, 1) 27%, rgba(0, 0, 0, 1) 81%);
   box-shadow: -2px 4px 23px -1px rgba(255, 0, 0, 0.75);
 -webkit-box-shadow: -2px 4px 23px -1px rgba(255, 0, 0, 0.75);
 -moz-box-shadow: -2px 4px 23px -1px rgba(255, 0, 0, 0.75);
-
+}
+.portada-peli{
+  border: solid 1px rgb(243, 1, 1);
 }
 .p-directores{
     font-weight: 500;
@@ -57,17 +59,25 @@ background: linear-gradient(75deg,rgba(85, 4, 4, 1) 27%, rgba(0, 0, 0, 1) 81%);
 @media (min-width: 1024px) {
   .contenedor-de-img{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     
   }
   .portada-peli{
-    width:440px;
-    display: flex;
+    width:300px;
   }
   .logos-detalle{
     width: 5%;
   }
   .boton-trailer{
     margin-bottom: 50px;
+  }
+  .vista-general{
+    margin: 10px 10px;
+  }
+  .directores{
+    margin: 0 10px;
+  }
+  .contenedor-Cards{
+    margin-top: 10px;
   }
 }
