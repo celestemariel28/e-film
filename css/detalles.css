@@ -1,16 +1,41 @@
 body{
-    background-color: #121212;
-}
-.detalles-pelicula{
-  background: #550404;
+   background: #550404;
 background: linear-gradient(75deg,rgba(85, 4, 4, 1) 50%, rgba(0, 0, 0, 1) 100%);
-color: white;
-min-height: 100vh;
+    color: white;
+}
+.detalles-pelicula {
+  position: relative; /* Necesario para que el overlay se posicione dentro */
+  background-image: url(../assets/img/fondo-venganza.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  z-index: 1;
+}
+.detalles-pelicula::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(22, 21, 21, 0.815); /* Color oscuro semitransparente */
+  z-index: -1; /* Para que no tape el contenido del section */
+}
+.portada-peli:hover{
+  box-shadow: -2px 4px 23px -1px rgba(207,29,29,0.75);
+-webkit-box-shadow: -2px 4px 23px -1px rgba(207,29,29,0.75);
+-moz-box-shadow: -2px 4px 23px -1px rgba(207,29,29,0.75);
+
 }
 .p-directores{
     font-weight: 500;
     margin: 0;
 }
+.video-responsive {
+      display: none;
+    }
+ 
 @media (min-width: 768px) {
   .contenedor-de-img{
     display: flex;
@@ -23,19 +48,22 @@ min-height: 100vh;
   .logos-detalle{
     width: 5%;
   }
-  
+ 
 }
 @media (min-width: 1024px) {
   .contenedor-de-img{
     display: flex;
-    justify-content: start;
+    justify-content: center;
+    
   }
   .portada-peli{
-    width:400px;
+    width:440px;
     display: flex;
   }
   .logos-detalle{
     width: 5%;
   }
-  
+  .boton-trailer{
+    margin-bottom: 50px;
+  }
 }
