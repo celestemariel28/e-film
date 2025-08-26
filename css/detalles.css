@@ -8,8 +8,8 @@ background: linear-gradient(75deg,rgba(85, 4, 4, 1) 27%, rgba(0, 0, 0, 1) 81%);
   position: relative; /* Necesario para que el overlay se posicione dentro */
   background-image: url(../assets/img/fondo-venganza.png);
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
+  background-position: center;
   height: 100vh;
   z-index: 1;
 }
@@ -20,13 +20,13 @@ background: linear-gradient(75deg,rgba(85, 4, 4, 1) 27%, rgba(0, 0, 0, 1) 81%);
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(22, 21, 21, 0.815); 
+    background-color: #000000e0;   /* Fondo oscuro */
   z-index: -1; /* Para que no tape el contenido del section */
 }
 .portada-peli:hover{
-  box-shadow: -2px 4px 23px -1px rgba(207,29,29,0.75);
--webkit-box-shadow: -2px 4px 23px -1px rgba(207,29,29,0.75);
--moz-box-shadow: -2px 4px 23px -1px rgba(207,29,29,0.75);
+  box-shadow: -2px 4px 23px -1px rgba(255, 0, 0, 0.75);
+-webkit-box-shadow: -2px 4px 23px -1px rgba(255, 0, 0, 0.75);
+-moz-box-shadow: -2px 4px 23px -1px rgba(255, 0, 0, 0.75);
 
 }
 .p-directores{
