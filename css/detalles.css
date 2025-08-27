@@ -83,6 +83,13 @@ background: linear-gradient(75deg,rgba(85, 4, 4, 1) 27%, rgba(0, 0, 0, 1) 81%);
     background-color: #121212;
     color: white;
  }
+ .tarjeta:hover{
+  transition: transform 0.3s ease;
+  cursor: pointer;
+ }
+ .tarjeta:hover {
+      transform: scale(1.05); /* La imagen crece un 10% */
+    }
 
 @media (min-width: 768px) {
   .contenedor-de-img{
