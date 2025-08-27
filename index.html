@@ -76,9 +76,26 @@
                       </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        e-Film es un servicio de streaming que ofrece películas y series disponibles en cualquier dispositivo con conexión a internet. Sómos "un equipo pequeño con grandes ideas."
+                      <div class="accordion-body pb-5">
+                        <div>
+                          e-Film es un servicio de streaming que ofrece películas y series disponibles en cualquier dispositivo con conexión a internet. Sómos "un equipo pequeño con grandes ideas."
+                        </div>
+                        <div class="avatar d-flex justify-content-evenly">
+                          <div class="img-avatar">
+                            <img src="./assets/Avatar/salo-avatar.webp" class="avatar1" alt="">
+                            <p class="text-center">Romero Salomé</p>
+                          </div>
+                          <div class="img-avatar">
+                            <img src="./assets/Avatar/facu-avatar.webp" class="avatar1" alt="">
+                            <p class="text-center">Vera Facundo</p>
+                          </div>
+                          <div class="img-avatar">
+                            <img src="./assets/Avatar/cele-avatar.webp" class="avatar1" alt="">
+                            <p class="text-center">Soto Celeste</p>
+                          </div>
+                        </div>
                       </div>
+
                     </div>
                   </div>
                   <div class="accordion-item">
@@ -122,20 +139,22 @@
                       </a>
 
                     </div>
-                    <div class="col-12 col-md-12 col-lg-6">
-                      <div class="mb-3">
-                        <input type="text" class="form-control" placeholder="nombre" aria-label="First name">
+                    <form class="col-12 col-md-12 col-lg-6">
+                      <div >
+                        <div class="mb-3">
+                          <input type="text" class="form-control" placeholder="nombre" aria-label="First name" required minlength="3" maxlength="100">
+                        </div>
+                        <div class="mb-3">
+                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo electrónico" required >
+                        </div>
+                        <div class="mb-3">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje" required minlength="10" maxlength="500"></textarea>
+                        </div>
+                        <div class="text-end">
+                          <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
                       </div>
-                      <div class="mb-3">
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo electrónico">
-                      </div>
-                      <div class="mb-3">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje"></textarea>
-                      </div>
-                      <div class="text-end">
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                      </div>
-                    </div>
+                    </form>
                   </div>
                 </div>
               </div>
