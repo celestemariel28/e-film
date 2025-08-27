@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,22 +9,27 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous" />
     <link rel="stylesheet" href="../css/detalles.css" />
   </head>
+
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark ">
         <div class="container-fluid">
-          <a class="navbar-brand text-center" href="#" data-bs-toggle="modal" data-bs-target="#Modal-2">Iniciar Sesión</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand text-center" href="#" data-bs-toggle="modal"
+            data-bs-target="#Modal-2">Iniciar Sesión</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="navbar-brand d-inline-block mt-1 mt-lg-0 text-center" href="#">Suscribirse</a>
+                <a class="navbar-brand d-inline-block mt-1 mt-lg-0 text-center"
+                  href="#">Suscribirse</a>
               </li>
             </ul>
           </div>
@@ -33,7 +39,9 @@
                 <a class="nav-link" href="#">Inicio</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
                   Categorías
                 </a>
                 <ul class="dropdown-menu">
@@ -42,16 +50,18 @@
                   <li><a class="dropdown-item" href="#">Drama</a></li>
                 </ul>
               </li>
-             <li class="nav-item">
+              <li class="nav-item">
                 <a class="nav-link" href="#">Películas</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Series</a>
               </li>
             </ul>
-          
+
             <form class="d-flex" role="search">
-              <input class="form-control buscador  me-2 borde-formu" type="search" placeholder="Buscar películas y series" aria-label="Search"/>
+              <input class="form-control buscador  me-2 borde-formu"
+                type="search" placeholder="Buscar películas y series"
+                aria-label="Search" />
             </form>
           </div>
         </div>
@@ -61,98 +71,129 @@
       <section class="container-fluid detalles-pelicula ">
         <!-- !Portada -->
         <div class="row ">
-          <div class="col-5  col-md-12 col-lg-5 m-2 contenedor-de-img ">
-                <img
-                  src="../assets/img/venganza-hd.png"
-                  alt="portada Pelicula"  class="portada-peli" width="150px">
+          <div class="col-5  col-md-12 col-lg-5 mt-2 contenedor-de-img ">
+           <img src="../assets/img/venganza-hd.png" alt="portada Pelicula" class="portada-peli img-fluid">
           </div>
           <!-- ! -->
-           <!-- ?Titulo -->
-          <div class="col-5 col-md-12 col-lg-5 mt-2 contenedor-titulo">
+          <!-- ?Titulo -->
+          <div class="col-6 col-md-12 col-lg-5 mt-2 contenedor-titulo">
             <h1>Venganza implacable</h1>
-            <small >8/11/2024 (+16) Acción,Crimen,Suspenso</small>
-            <!-- ? -->
-             <!--TODO Compartir -->
-            <div class="col-12 col-lg-6">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16">
-                 <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"/>
-               </svg>
-               <small>Compartir</small>
-               <img src="../assets/img/logo-f.svg" alt="logo facebook"  class="logos-detalle" width="15%">
-               <img src="../assets/img/logo-ig.svg" alt="logo instagram"  class="logos-detalle" width="15%">
-            </div> 
-             <!-- TODO-->
-        </div>
-          <div class="row">
-            <!--* Vista-general -->
-              <div class="col-12 col-md-12 col-lg-12 mt-2 vista-general">
-                <h2>Vista general</h2>
-                <p>Después de que su esposa e hija sean brutalmente asesinadas a manos de unos misteriosos sicarios vinculados a un sanguinario sindicato del crimen organizado, An Bai (Tony Jaa), un veterano experto en Muay Thai, se propone desentrañar la verdad e inicia una implacable misión de venganza.</p>
-            </div> 
-            <!-- * -->
-             <!--! Directores -->
-            <div class="col-5 directores">
-                <p class="p-directores">Cheng Siyi:</p>
-                <small>Director</small>
+            <small>8/11/2024 (+16) Acción,Crimen,Suspenso</small>
+
+            <div class=" d-none d-lg-block mt-4">
+              <h4>Calificación y Reseñas</h4>
+              <p>⭐ 7.8/10 <small>(IMDb)</small></p>
+              <blockquote class="fst-italic">“Un thriller de acción intenso con
+                combates espectaculares”</blockquote>
+
+              <button class="btn btn-outline-light">
+                ➕ Agregar a mi lista
+              </button>
+              <button class="btn btn-outline-warning">
+                ⬇️ Descargar
+              </button>
             </div>
-            <div class="col-5">
-                    <p  class="p-directores">Guo Haiwen:</p>
-                <small>Screenplay</small>
-            </div>
-            <!-- ! -->
-            <section class="container contenedor-Cards">
-              <div class="row mt-5">
-               <div class="col-lg-3 d-none d-lg-block">
-              <div class="card tarjeta" style="width: 10rem;">
-               <img src="../assets/img/tony.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-text">Tony Jaa</h5>
-                </div>
-                </div>
-            </div>
-            <div class="col-lg-3 d-none d-lg-block">
-              <div class="card  tarjeta" style="width: 10rem;">
-               <img src="../assets/img/philip.png" class="card-img-top" alt="...">
-                <div class="card-body ">
-                  <h5 class="card-text">Philip Keung</h5>
-                </div>
-                </div>
-            </div>
-            <div class="col-lg-3 d-none d-lg-block">
-              <div class="card tarjeta" style="width: 10rem;">
-               <img src="../assets/img/eason.png" class="card-img-top" alt="Actor foto">
-                <div class="card-body">
-                  <h5 class="card-text">Eason Hung</h5>
-                </div>
-                </div>
-            </div>
-            <div class="col-lg-3 d-none d-lg-block">
-              <div class="card tarjeta" style="width: 10rem;">
-               <img src="../assets/img/personaje.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-text">Xing Yu</h5>
-                </div>
-                </div>
-            </div>
-              </div>
-            </section>
-            <section class="container">
-            <div class="row">
-                <div class="col-12 boton-trailer">
-                <a href="https://www.youtube.com/watch?v=TrfooLjn7YY" class="btn btn-primary mt-2 " target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill m-2" viewBox="0 0 16 16">
-                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
-                </svg>Reproducir trailer </a>
-            </div>
+
           </div>
+          <!-- ? -->
+          <!--TODO Compartir -->
+          <div class="col-12 col-lg-6 mt-2 compartir">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor" class="bi bi-share-fill"
+              viewBox="0 0 16 16">
+              <path
+                d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5" />
+            </svg>
+            <small>Compartir</small>
+            <img src="../assets/img/logo-f.svg" alt="logo facebook"
+              class="logos-detalle" width="7%">
+            <img src="../assets/img/logo-ig.svg" alt="logo instagram"
+              class="logos-detalle" width="7%">
+          </div>
+          <!-- TODO-->
+        </div>
+        <div class="row">
+          <!--* Vista-general -->
+          <div class="col-12 col-md-12 col-lg-12 mt-2 vista-general">
+            <h2>Vista general</h2>
+            <p>Después de que su esposa e hija sean brutalmente asesinadas a
+              manos de unos misteriosos sicarios vinculados
+              a un sanguinario sindicato del crimen organizado, An Bai (Tony
+              Jaa), un veterano experto en Muay Thai, se
+              propone desentrañar la verdad e inicia una implacable misión de
+              venganza.</p>
+          </div>
+          <!-- * -->
+          <!--! Directores -->
+          <div class="col-5 directores">
+            <p class="p-directores">Cheng Siyi:</p>
+            <small>Director</small>
+          </div>
+          <div class="col-5">
+            <p class="p-directores">Guo Haiwen:</p>
+            <small>Screenplay</small>
+          </div>
+          <!-- ! -->
+          <section class="container contenedor-Cards">
+            <div class="row mt-5">
+              <div class="col-lg-3 d-none d-lg-block">
+                <div class="card tarjeta" style="width: 10rem;">
+                  <img src="../assets/img/tony.png" class="card-img-top"
+                    alt="...">
+                  <div class="card-body">
+                    <h5 class="card-text">Tony Jaa</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 d-none d-lg-block">
+                <div class="card  tarjeta" style="width: 10rem;">
+                  <img src="../assets/img/philip.png" class="card-img-top"
+                    alt="...">
+                  <div class="card-body ">
+                    <h5 class="card-text">Philip Keung</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 d-none d-lg-block">
+                <div class="card tarjeta" style="width: 10rem;">
+                  <img src="../assets/img/eason.png" class="card-img-top"
+                    alt="Actor foto">
+                  <div class="card-body">
+                    <h5 class="card-text">Eason Hung</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 d-none d-lg-block">
+                <div class="card tarjeta" style="width: 10rem;">
+                  <img src="../assets/img/personaje.png" class="card-img-top"
+                    alt="...">
+                  <div class="card-body">
+                    <h5 class="card-text">Xing Yu</h5>
+                  </div>
+                </div>
+              </div>
             </div>
-      </section>
-    </main>
-    <footer></footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-</html>
+          </section>
+          <section class="container">
+            <div class="row">
+              <div class="col-12 boton-trailer">
+                <a href="https://www.youtube.com/watch?v=TrfooLjn7YY"
+                  class="btn btn-primary mt-2 " target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor"
+                    class="bi bi-play-fill m-2" viewBox="0 0 16 16">
+                    <path
+                      d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                  </svg>Reproducir trailer </a>
+              </div>
+            </div>
+          </section>
+        </main>
+        <footer></footer>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+          crossorigin="anonymous"></script>
+      </body>
+
+    </html>

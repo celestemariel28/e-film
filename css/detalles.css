@@ -79,13 +79,11 @@ background: linear-gradient(75deg,rgba(85, 4, 4, 1) 27%, rgba(0, 0, 0, 1) 81%);
     font-weight: 500;
     margin: 0;
 }
-.video-responsive {
-      display: none;
-    }
  .tarjeta{
     background-color: #121212;
     color: white;
  }
+
 @media (min-width: 768px) {
   .contenedor-de-img{
     display: flex;
@@ -98,7 +96,7 @@ background: linear-gradient(75deg,rgba(85, 4, 4, 1) 27%, rgba(0, 0, 0, 1) 81%);
   .logos-detalle{
     width: 5%;
   }
- 
+
 }
 @media (min-width: 1024px) {
   .contenedor-de-img{
@@ -116,13 +114,10 @@ background: linear-gradient(75deg,rgba(85, 4, 4, 1) 27%, rgba(0, 0, 0, 1) 81%);
     margin-top: 10px;
     margin-bottom: 30px;
   }
-  .vista-general{
-    margin: 10px 10px;
-  }
-  .directores{
-    margin: 0 10px;
-  }
   .contenedor-Cards{
     margin-top: 10px;
+  }
+  .compartir{
+    margin: 10PX 5PX ;
   }
 }
