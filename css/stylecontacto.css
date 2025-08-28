@@ -1,6 +1,5 @@
 .seccion-contacto{
     background-color: #121212;
-    padding: 40px 10px;
     /*seccion preguntas */
     & .seccion-preguntas{
         background-color: #1b072870;
