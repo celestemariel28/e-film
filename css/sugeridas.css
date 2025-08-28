@@ -41,52 +41,52 @@
 /*Esto le cambia el fondo a la tarjeta cuando alguna imagen dentro de ella está en hover.*/
 
 .seccion-sugeridas:has(.img1:hover) {
-    background-image: url("/assets/Tendencia/36xXlhEpQqVVPuiZhfoQuaY4OlA.webp");
+    background-image: url("/assets/Sugeridas/36xXlhEpQqVVPuiZhfoQuaY4OlA.webp");
     background-size: cover; 
     background-position: center; 
 }
 .seccion-sugeridas:has(.img2:hover) {
-    background-image: url("/assets/Tendencia/6H6p82aWQFEKEuVUiZll6JxV8Ft.webp");
+    background-image: url("/assets/Sugeridas/6H6p82aWQFEKEuVUiZll6JxV8Ft.webp");
     background-size: cover; 
     background-position: center; 
 }
 .seccion-sugeridas:has(.img3:hover) {
-    background-image: url("/assets/Tendencia/dVsgV7ak6vR5xyXFggooJQinXBg.webp");
+    background-image: url("/assets/Sugeridas/dVsgV7ak6vR5xyXFggooJQinXBg.webp");
     background-size: cover; 
     background-position: center; 
 }
 .seccion-sugeridas:has(.img4:hover) {
-    background-image: url("/assets/Tendencia/nLTs9SNBuk3DuB8D0p3mSsPYN7J.webp");
+    background-image: url("/assets/Sugeridas/nLTs9SNBuk3DuB8D0p3mSsPYN7J.webp");
     background-size: cover; 
     background-position: center; 
 }
 .seccion-sugeridas:has(.img5:hover) {
-    background-image: url("/assets/Tendencia/w2ARwtc1zoh0pyfwmyhpZHwuXgK.webp");
+    background-image: url("/assets/Sugeridas/w2ARwtc1zoh0pyfwmyhpZHwuXgK.webp");
     background-size: cover; 
     background-position: center; 
 }
 .seccion-sugeridas:has(.img6:hover) {
-    background-image: url("/assets/Tendencia/ombsmhYUqR4qqOLOxAyr5V8hbyv.webp");
+    background-image: url("/assets/Sugeridas/ombsmhYUqR4qqOLOxAyr5V8hbyv.webp");
     background-size: cover; 
     background-position: center; 
 }
 .seccion-sugeridas:has(.img7:hover) {
-    background-image: url("/assets/Tendencia/tObSf1VzzHt9xB0csanFtb3DRjf.webp");
+    background-image: url("/assets/Sugeridas/tObSf1VzzHt9xB0csanFtb3DRjf.webp");
     background-size: cover; 
     background-position: center; 
 }
 .seccion-sugeridas:has(.img8:hover) {
-    background-image: url("/assets/Tendencia/udxkpbqBsVS4Hnrfn4HabDKKxb5.webp");
+    background-image: url("/assets/Sugeridas/udxkpbqBsVS4Hnrfn4HabDKKxb5.webp");
     background-size: cover; 
     background-position: center; 
 }
 .seccion-sugeridas:has(.img9:hover) {
-    background-image: url("/assets/Tendencia/uwvKQIjJpC37IEsEj4ZAn1ITyRy.webp");
+    background-image: url("/assets/Sugeridas/uwvKQIjJpC37IEsEj4ZAn1ITyRy.webp");
     background-size: cover; 
     background-position:top; 
 }
 .seccion-sugeridas:has(.img10:hover) {
-    background-image: url("/assets/Tendencia/xeEw3eLeSFmJgXZzmF2Efww0q3s.webp");
+    background-image: url("/assets/Sugeridas/xeEw3eLeSFmJgXZzmF2Efww0q3s.webp");
     background-size: cover; 
     background-position: center; 
 }

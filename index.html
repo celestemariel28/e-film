@@ -28,7 +28,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="navbar-brand d-inline-block mt-1 mt-lg-0 text-center" href="#">Suscribirse</a>
+                <a class="navbar-brand d-inline-block mt-1 mt-lg-0 text-center" href="#suscribirse">Suscribirse</a>
               </li>
             </ul>
           </div>
@@ -37,21 +37,20 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Inicio</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Categorías
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Comedias</a></li>
-                  <li><a class="dropdown-item" href="#">Ciencia Ficción</a></li>
-                  <li><a class="dropdown-item" href="#">Drama</a></li>
-                </ul>
-              </li>
-             <li class="nav-item">
-                <a class="nav-link" href="#">Películas</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#tendencia">Tendencia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Series</a>
+                <a class="nav-link" href="#sugerencias">Sugerencias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/peliculas.html">Películas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/series.html">Series</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
               </li>
             </ul>
           
@@ -66,7 +65,7 @@
       </div>
     </header>
     <main>
-      <section class="container seccion-tendencias">
+      <section id="tendencia" class="container seccion-tendencias">
         <div class="p-0">
             <h2 class="text-center my-4"> Tendencia</h2>
           </div>
@@ -119,7 +118,7 @@
         </div>
       </section>
 
-      <section class="container seccion-sugeridas ">
+      <section id="sugerencias" class="container seccion-sugeridas ">
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="carousel-item ">
@@ -152,9 +151,9 @@
               <p class="descripcion-sugerida text-center my-5"></p>
             </div>
         </section>
-      <section class="container-fluid">
+      <section id="suscribirse" class="container-fluid">
         <div class="row">
-          <div class="col banner-suscripcion p-0">
+          <div class="col banner-suscripcion py-5">
             <h3 class="text-center">Suscribite y disfruta</h3>
             <h3 class="text-center">contenido ilimitado</h3>
             <div
@@ -165,7 +164,7 @@
           </div>
         </div>
       </section>
-    <section class="seccion-contacto">
+    <section id="contacto" class="seccion-contacto">
         <div class="container">
           <div class="row">
             <div class=" col-12 col-md-12 col-lg-6">
@@ -244,7 +243,7 @@
                       </a>
 
                     </div>
-                    <form class="col-12 col-md-12 col-lg-6">
+                    <form class="col-12 col-md-12 col-lg-6" action="/pages/error404.html" method="get">
                       <div >
                         <div class="mb-3">
                           <input type="text" class="form-control" placeholder="nombre" aria-label="First name" required minlength="3" maxlength="100">
@@ -270,40 +269,39 @@
       </section>      
     </main>
     <footer>
-      <div class="container">
+      <div class="container py-3">
         <div class="row">
-          <div class="col-12 col-md-3 p-0"> <img src="./assets/img/logo-e-filmm.png" alt="Logo e-Film" width="30%" class="logo-e-film"></div>
+          <div class="col-12 col-md-3 p-0"> <a href="#"><img src="./assets/img/logo-e-filmm.png" alt="Logo e-Film" width="30%" class="logo-e-film"></a></div>
           <div class="col-12 col-md-3 navegacion">
             <ul>
               <li><a href="#">Inicio</a></li>
-              <li><a href="">Contacto</a></li>
-              <li><a href="">Ubicacion</a></li>
-              <li><a href="">Acerca de Nosotros</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+              <li><a href="#contacto">Ubicacion</a></li>
+              <li><a href="#contacto">Acerca de Nosotros</a></li>
             </ul>
           </div>
           <div class="col-12 col-md-3 navegacion">
             <ul>
-              <li><a href="#">Peliculas</a></li>
-              <li><a href="">Series</a></li>
-              <li><a href="">Privacidad</a></li>
+              <li><a href="/pages/peliculas.html">Peliculas</a></li>
+              <li><a href="/pages/series.html">Series</a></li>
+              <li><a href="/pages/error404.html">Privacidad</a></li>
             </ul>
           </div>
           <div class="col-12 col-md-3 navegacion ">
             <h4>Redes Sociales:</h4>
-            <ul class="d-flex flex-row ">
+            <ul class="d-flex flex-row">
               <li>
-                <a href="#"
-                  ><img src="./assets/img/icons8-facebook-nuevo-50.png" alt="logo facebook"
-                /></a>
+                <a href="/pages/error404.html"
+                  ><i class="bi bi-facebook fs-3 mx-2 "></i></a>
               </li>
               <li>
-                <a href="#"
-                  ><img src="./assets/img/icons8-instagram-50.png" alt="logo instagram"></a
+                <a href="/pages/error404.html"
+                  ><i class="bi bi-instagram fs-3 mx-2"></i></a
                 >
               </li>
                <li>
-                <a href="#"
-                  ><img src="./assets/img/icons8-twitterx-50.png" alt="logo instagram"></a
+                <a href="/pages/error404.html"
+                  ><i class="bi bi-twitter-x fs-3 mx-2"></i></a
                 >
               </li>
             </ul>
@@ -322,27 +320,27 @@
             <button type="button" class="btn-close btn-close-white position-absolute end-0 me-2" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <form>
+            <form action="/pages/peliculas.html" method="get">
               <div class="mb-3">
-                <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico">
+                <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico" required>
               </div>
               <div class="mb-3">
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña" required minlength="4" maxlength="10">
               </div>
               <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1"">
                 <label class="form-check-label  for="exampleCheck1">Recordar contraseña</label>
               </div>
               <button type="submit" class="btn btn-primary w-100">Iniciar Sesión</button>
               <div class="text-center my-3 text-white">
-                <span>- o continuar con -</span>
+                <p>- o continuar con -</p>
               </div>
-              <button type="button" class="btn btn-outline-danger w-100 mb-2">
+              <a href="https://www.google.com/" class="btn btn-outline-danger w-100 mb-2">
                 <i class="bi bi-google me-2"></i> Google
-              </button>
-              <button type="button" class="btn btn-outline-primary w-100">
+              </a>
+              <a href="/pages/error404.html" class="btn btn-outline-primary w-100">
                 <i class="bi bi-facebook me-2"></i> Facebook
-              </button>
+              </a>
             </form>
           </div>
         </div>
