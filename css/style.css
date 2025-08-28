@@ -51,10 +51,10 @@ body{
 }
 /* Todo header */
 header{
-  background-image: url("/assets/img/fondonav.webp");
+  background-image: url("/assets/img/portada-e-film.png");
   background-size: cover; 
   background-position: center; 
-  height: 500px; 
+  height:100vh; 
   position: relative;
 
 }
