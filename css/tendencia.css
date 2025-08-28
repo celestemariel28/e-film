@@ -1,0 +1,72 @@
+
+.seccion-tendencias {
+    padding: 40px 5px;
+    text-align: center;
+    margin: 10px auto;
+    & h2 {
+        margin-bottom: 20px;
+    }
+    & .contenido {
+        position: relative;
+        flex: 0 0 auto;
+        margin: 0;
+        &.img-tendencia {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }    
+}
+.circulo {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: #9c8699b9;
+    border-radius: 50%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo .nro {
+    font-size: 2rem;
+    color: #380858;
+    margin: 0;
+}
+
+@media (min-width: 1024px) {
+    .seccion-tendencias .row {
+        justify-content: center;
+        gap: 20px;
+    }
+    .seccion-tendencias .contenido {
+        width: 150px;
+    }
+    .seccion-tendencias .img-tendencia {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 1280px) {
+    .seccion-tendencias .scroll-horizontal {
+        /*activa el scroll cuando el contenido es mas grande q el contenedor*/
+        overflow-x: auto;
+        scrollbar-color: #9c8699b9 transparent;
+        padding-bottom: 15px;
+    }
+    .seccion-tendencias .row.flex-nowrap {
+        gap: 8px;
+    }
+    .seccion-tendencias .contenido {
+        width: 120px;
+    }
+    .seccion-tendencias .img-tendencia {
+        width: 100%;
+        height: auto;
+    }
+}
