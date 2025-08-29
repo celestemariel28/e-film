@@ -14,7 +14,8 @@
     
 }
 .carousel-item img:hover {
-    border: 5px solid #992E92;
+box-shadow: 0 0 10px 3px #992E92; 
+  transition: box-shadow ;
 }
 
 
