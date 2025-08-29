@@ -68,7 +68,7 @@ main{
 .overlay{
   position: absolute;
   inset: 0;
-  background-color: #1b0728c9;
+  background-color: #1b0728af;
   z-index: 1;
 }
 /*Seccion de categorias*/
