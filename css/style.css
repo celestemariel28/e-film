@@ -5,6 +5,9 @@ body{
 main{
     min-height: 100vh;
 }
+.color-fondo{
+  background-color: #00000059;
+}
 .navegacion ul {
     list-style: none;
     padding: 0;
