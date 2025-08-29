@@ -4,8 +4,10 @@ background: linear-gradient(75deg,rgba(85, 4, 4, 1) 27%, rgba(0, 0, 0, 1) 81%);
   background-attachment: fixed;  /*TODO: mantiene el degradado continuo*/
     color: white;
 }
+/* Todo header */
+
 .navbar{
-    background-color: #000000cc;
+    background-color: #07010c;
     z-index: 2;
     & .navbar-brand{
         border: 1px solid #992E92;
@@ -30,19 +32,19 @@ background: linear-gradient(75deg,rgba(85, 4, 4, 1) 27%, rgba(0, 0, 0, 1) 81%);
 
     }
     & .nav-link:hover{
-        color: #992E92;
+        color: #7811bd;
     }
     & .dropdown-menu{
-        background-color: #992e92e8;
+        background-color: #380858;
     }
     & .dropdown-item{
         color: white;
     }
     & .dropdown-item:hover{
-        background-color: rgba(255, 255, 255, 0.404);
-        color: #992E92;
+        background-color: rgba(255, 255, 255, 0.658);
+        color: #380858;
     }
-  }
+}
 .buscador{
   background-color: rgba(255, 255, 255, 0.767);
   border-radius: 50px;
