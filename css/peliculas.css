@@ -12,7 +12,7 @@ main{
 /* Todo header */
 
 .navbar{
-    background-color: #0d0314;
+    background-color: #07010c;
     z-index: 2;
     & .navbar-brand{
         border: 1px solid #992E92;
@@ -37,17 +37,17 @@ main{
 
     }
     & .nav-link:hover{
-        color: #992E92;
+        color: #7811bd;
     }
     & .dropdown-menu{
-        background-color: #992e92e8;
+        background-color: #380858;
     }
     & .dropdown-item{
         color: white;
     }
     & .dropdown-item:hover{
-        background-color: rgba(255, 255, 255, 0.404);
-        color: #992E92;
+        background-color: rgba(255, 255, 255, 0.658);
+        color: #380858;
     }
 }
 .buscador{
@@ -58,7 +58,7 @@ main{
 /*carrusel*/
 .carousel-inner,
 .carousel-item {
-  height: 50vh; 
+  height: 100vh; 
 }
 .carousel-item img {
   width: 100%;
@@ -68,7 +68,7 @@ main{
 .overlay{
   position: absolute;
   inset: 0;
-  background-color: #1b0728af;
+  background-color: #1b0728c9;
   z-index: 1;
 }
 /*Seccion de categorias*/
@@ -136,6 +136,14 @@ main{
     & a {
         color: white;
     }
+}
+ul.d-flex li a i {
+    transition: transform 0.3s, color 0.3s;
+}
+
+ul.d-flex li a:hover i {
+    color: #470d6e; 
+    transform: scale(1.3);
 }
 @media (min-width: 768px) {
   .logo-e-film{
