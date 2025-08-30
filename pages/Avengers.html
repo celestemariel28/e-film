@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Avengers: Endgame</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/Avengers.css" />
+  </head>
+  <body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link d-flex align-items-center" href="#" id="userDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-person-circle" viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                  <path fill-rule="evenodd"
+                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                </svg>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./error404.html">Perfil</a></li>
+                <li><a class="dropdown-item" href="/index.html">Cerrar Sesión</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Categorías
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#comedia">Comedia</a></li>
+                <li><a class="dropdown-item" href="#ciencia">Ciencia Ficción</a></li>
+                <li><a class="dropdown-item" href="#drama">Drama</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Películas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Series</a>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input class="form-control buscador  me-2 borde-formu" type="search" placeholder="Buscar películas y series"
+              aria-label="Search" />
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+    <main>
+      <section class="container-fluid detalles-pelicula ">
+        <!-- !Portada -->
+        <div class="row ">
+          <div class="col-5  col-md-12 col-lg-5 mt-2 contenedor-de-img ">
+           <img src="../assets/Avengers/vengadores.webp" alt="portada Pelicula" class="portada-peli img-fluid" title="Vengadores: Endgame ">
+          </div>
+          <!-- ! -->
+          <!-- ?Titulo -->
+          <div class="col-6 col-md-12 col-lg-5 mt-2 contenedor-titulo">
+            <h1>Avengers: Endgame</h1>
+            <small>8/11/2024 (+16) Acción,Crimen,Suspenso</small>
+            <div class=" d-none d-lg-block mt-4">
+              <h4>Calificación y Reseñas</h4>
+              <p>⭐ 9.8/10 <small>(E-film)</small></p>
+              <blockquote class="fst-italic">“Nada puede prepararte para el final.”</blockquote>
+              <button class="btn btn-outline-light">
+                ➕ Agregar a mi lista
+              </button>
+              <button class="btn btn-outline-warning">
+                ⬇️ Descargar
+              </button>
+            </div>
+          </div>
+          <!-- ? -->
+          <!--TODO Compartir -->
+          <div class="col-12 col-lg-6 mt-2 compartir">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor" class="bi bi-share-fill"
+              viewBox="0 0 16 16">
+              <path
+                d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5" />
+            </svg>
+            <small>Compartir</small>
+            <img src="../assets/Avengers/logo-f.svg" alt="logo facebook"
+              class="logos-detalle" width="7%">
+            <img src="../assets/Avengers/logo-insta.svg "alt="logo instagram"
+              class="logos-detalle" width="7%">
+          </div>
+          <!-- TODO-->
+        </div>
+        <div class="row">
+          <!--* Vista-general -->
+          <div class="col-12 col-md-12 col-lg-12 mt-2 vista-general">
+            <h2>Vista general</h2>
+            <p>Después de que Thanos aniquilara la mitad del universo en Vengadores: Infinity War, los Vengadores restantes se unen una vez más para revertir sus acciones y restaurar el orden, sin importar el costo.</p>
+          </div>
+          <!-- * -->
+          <!--! Directores -->
+          
+          <div class="col-5 directores ">
+            <p class="p-directores">Joe Russo</p>
+            <small>Director</small>
+          </div>
+          <div class="col-5">
+            <p class="p-directores">Stephen McFeely</p>
+            <small>Screenplay</small>
+          </div>
+          <!-- ! -->
+          <section class="container contenedor-Cards">
+            <div class="row mt-5">
+                <!-- <h3>Peliculas Relacionadas</h3> -->
+              <div class="col-lg-3 d-none d-lg-block">
+                <div class="card tarjeta" style="width: 13rem; ">
+                  <img src="../assets/Avengers/Pantera-negra.webp" class="card-img-top"
+                    alt="portada de película" title="Black Panther">
+                  <div class="card-body">
+                    <h5 class="card-text">Black Panther</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 d-none d-lg-block">
+                <div class="card  tarjeta" style="width: 13rem; ">
+                  <img src="../assets/Avengers/deadpool.webp" class="card-img-top"
+                    alt="portada de película" title="Deadpool 2">
+                  <div class="card-body ">
+                    <h5 class="card-text">Deadpool 2</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 d-none d-lg-block">
+                <div class="card tarjeta" style="width: 13rem;">
+                  <img src="../assets/Avengers/justiciero.webp " class="card-img-top"
+                    alt="portada de película" title="El justiciero">
+                  <div class="card-body">
+                    <h5 class="card-text">El justiciero</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 d-none d-lg-block">
+                <div class="card tarjeta" style="width: 13rem;">
+                  <img src="../assets/Avengers/rampage.webp" class="card-img-top"
+                    alt="portada de película" title="Proyecto Rampage">
+                  <div class="card-body">
+                    <h5 class="card-text">Proyecto Rampage</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="container">
+            <div class="row">
+              <div class="col-12 boton-trailer">
+                <a href="https://www.youtube.com/watch?v=TcMBFSGVi1c"
+                  class="btn btn-primary mt-2 " target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor"
+                    class="bi bi-play-fill " viewBox="0 0 16 16">
+                    <path
+                      d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                  </svg>Reproducir trailer </a>
+              </div>
+            </div>
+          </section>
+        </main>
+        <footer></footer>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+          crossorigin="anonymous"></script>
+      </body>
+    </html>

@@ -1,0 +1,132 @@
+body{
+   background: #550404;
+background: linear-gradient(75deg,rgba(85, 4, 4, 1) 27%, rgba(0, 0, 0, 1) 81%);
+  background-attachment: fixed;  /*TODO: mantiene el degradado continuo*/
+    color: white;
+}
+/* Todo header */
+
+.navbar{
+    background-color: #07010c;
+    z-index: 2;
+    & .navbar-brand{
+        border: 1px solid #992E92;
+        padding: 5px 8px;
+        border-radius: 10px;
+        width: 100px;
+        height: 25px;
+        font-size: 10px;
+        font-weight: 400;       
+    }
+
+
+    & .navbar-brand:hover{
+        background-color: #f557ea;
+    }
+
+    & .borde-formu{
+        border: 2px solid #992E92;
+        box-shadow: 0 0 5px #992E92;
+        height: 30px;
+        border-radius: 50px;
+
+    }
+    & .nav-link:hover{
+        color: #7811bd;
+    }
+    & .dropdown-menu{
+        background-color: #380858;
+    }
+    & .dropdown-item{
+        color: white;
+    }
+    & .dropdown-item:hover{
+        background-color: rgba(255, 255, 255, 0.658);
+        color: #380858;
+    }
+}
+.buscador{
+  background-color: rgba(255, 255, 255, 0.767);
+  border-radius: 50px;
+}
+.detalles-pelicula {
+  position: relative; /* Necesario para que el overlay se posicione dentro */
+  background-image: url(../assets/img/fondo-venganza.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  z-index: 1;
+}
+.detalles-pelicula::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    background-color: #000000d7;   /* Fondo oscuro */
+  z-index: -1; /* Para que no tape el contenido del section */
+}
+.portada-peli:hover{
+  box-shadow: -2px 4px 23px -1px rgba(255, 0, 0, 0.75);
+-webkit-box-shadow: -2px 4px 23px -1px rgba(255, 0, 0, 0.75);
+-moz-box-shadow: -2px 4px 23px -1px rgba(255, 0, 0, 0.75);
+}
+.portada-peli{
+  border: solid 1px rgb(243, 1, 1);
+  border-radius: 10px;
+}
+.p-directores{
+    font-weight: 500;
+    margin: 0;
+}
+ .tarjeta{
+    background-color: #121212;
+    color: white;
+ }
+ .tarjeta:hover{
+  transition: transform 0.3s ease;
+  cursor: pointer;
+ }
+ .tarjeta:hover {
+      transform: scale(1.05); /* La imagen crece un 10% */
+    }
+
+@media (min-width: 768px) {
+  .contenedor-de-img{
+    display: flex;
+    justify-content: center;
+  }
+  .portada-peli{
+    width: 400px;
+    display: flex;
+  }
+  .logos-detalle{
+    width: 5%;
+  }
+
+}
+@media (min-width: 1024px) {
+  .contenedor-de-img{
+    display: flex;
+    justify-content: left;
+    
+  }
+  .portada-peli{
+    width:300px;
+  }
+  .logos-detalle{
+    width: 5%;
+  }
+  .boton-trailer{
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .contenedor-Cards{
+    margin-top: 10px;
+  }
+  .compartir{
+    margin: 10PX 5PX ;
+  }
+}
