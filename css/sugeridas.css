@@ -1,3 +1,6 @@
+@media (min-width: 1024px){
+
+}
 .seccion-sugeridas{
    background: #2D2C2C; 
    position: relative;
@@ -105,43 +108,93 @@
 
 /* Texto dinámico según la imagen */
 .seccion-sugeridas:has(.img1:hover) .descripcion-sugerida::after {
-  content: "Merlina Addams, lista, sarcástica y un \A poco muerta por dentro, investiga una oleada de asesinatos mientras hace \A amigos y enemigos en la Academia Nunca Más.";
+  content: "Merlina Addams, lista, sarcástica y un poco muerta por dentro, investiga una oleada de asesinatos mientras hace amigos y enemigos en la Academia Nunca Más.";
   white-space: pre-line;
 }
 
 .seccion-sugeridas:has(.img2:hover) .descripcion-sugerida::after {
-  content: "La leyenda de las carreras Sonny Hayes es  convencido de salir\A de su retiro para liderar un equipo de Fórmula 1 en dificultades (y ser mentor de un joven piloto prometedor) \A mientras busca una oportunidad más de alcanzar la gloria.";
+  content: "La leyenda de las carreras Sonny Hayes es  convencido de salir de su retiro para liderar un equipo de Fórmula 1 en dificultades (y ser mentor de un joven piloto prometedor) mientras busca una oportunidad más de alcanzar la gloria.";
   white-space: pre-line;
 }
 
 .seccion-sugeridas:has(.img3:hover) .descripcion-sugerida::after {
-  content: "Dos padres reciben una angustiosa llamada nocturna  de su hija adolescente,\A quien acaba de atropellar accidentalmente  a un peatón. Se suben a su coche a toda \Aprisa para llegar antes  de que alguien más se tope con la escena. ";
+  content: "Dos padres reciben una angustiosa llamada nocturna  de su hija adolescente, quien acaba de atropellar accidentalmente  a un peatón. Se suben a su coche a toda prisa para llegar antes  de que alguien más se tope con la escena. ";
   white-space: pre-line;
 }
 .seccion-sugeridas:has(.img4:hover) .descripcion-sugerida::after {
-  content: "Lilli sospecha del nuevo prometido de su hermana,pero cuando\A  un atractivo extraño entra  en su vida, \A de repente se distrae con las garras del deseo.";
+  content: "Lilli sospecha del nuevo prometido de su hermana,pero cuando  un atractivo extraño entra  en su vida, de repente se distrae con las garras del deseo.";
   white-space: pre-line;
 }
 .seccion-sugeridas:has(.img5:hover) .descripcion-sugerida::after {
-  content: "Elio, un fanático del espacio con una imaginación activa, se encuentra en una desventura \A cósmica en la que debe formar nuevos vínculos con excéntricas formas de vida alienígenas, navegar por una crisis \A de proporciones intergalácticas y, de alguna manera, descubrir quién está realmente destinado a ser.";
+  content: "Elio, un apasionado del espacio, vive una aventura cósmica donde debe relacionarse con extrañas formas de vida alienígenas, enfrentar una crisis intergaláctica y descubrir su verdadero destino.";
   white-space: pre-line;
 }
 .seccion-sugeridas:has(.img6:hover) .descripcion-sugerida::after {
-  content: "Superman, un periodista en Metrópolis, se embarca en un\A viaje para reconciliar su herencia kryptoniana con \A su educación humana como Clark Kent.";white-space: pre-line;
+  content: "Superman, un periodista en Metrópolis, se embarca en un viaje para reconciliar su herencia kryptoniana con su educación humana como Clark Kent.";white-space: pre-line;
 }
 .seccion-sugeridas:has(.img7:hover) .descripcion-sugerida::after {
-  content: "Tras la muerte de su padre, un hermano  y una hermana \A conocen a su nuevo hermano gracias a su madre adoptiva, solo \A para descubrir que ella tiene un secreto aterrador.";
+  content: "Tras la muerte de su padre, un hermano  y una hermana conocen a su nuevo hermano gracias a su madre adoptiva, solo  para descubrir que ella tiene un secreto aterrador.";
   white-space: pre-line;
 }
 .seccion-sugeridas:has(.img8:hover) .descripcion-sugerida::after {
-  content: "Amanda Knox llega a Italia para estudiar en el extranjero, pero semanas\A después es encarcelada injustamente por asesinato. Sigue la lucha incansable de Knox para demostrar su inocencia\A y recuperar su libertad, y analiza por qué las autoridades y el mundo la juzgaron con tanta firmeza.";
+  content: "Amanda Knox viaja a Italia para estudiar, pero pronto es encarcelada injustamente por asesinato. Narra su lucha por probar su inocencia y recuperar la libertad, mientras cuestiona el duro juicio de autoridades y del mundo.";
   white-space: pre-line;
 }
 .seccion-sugeridas:has(.img9:hover) .descripcion-sugerida::after {
-  content: "Heather es una joven que viaja por Europa con amigos antes de comenzar una vida perfectamente planificada.\A Un encuentro casual con Jack desencadena un romance inesperado que conduce a un profundo descubrimiento\A emocional. A medida que los secretos y las decisiones vitales ponen a prueba su vínculo, su camino cambia para siempre.";
+  content: "Heather, una joven con la vida planificada, viaja por Europa con amigos. Allí conoce a Jack y comienza un romance inesperado que la lleva a un profundo descubrimiento emocional. Entre secretos y decisiones importantes, su destino da un giro definitivo.";
   white-space: pre-line;
 }
 .seccion-sugeridas:has(.img10:hover) .descripcion-sugerida::after {
-  content: "Xander Cage es el típico adicto a la adrenalina, sin miedo y con una actitud pésima. Cuando el \Agobierno de Estados Unidos lo 'recluta' para una misión, no le entusiasma precisamente. Su misión: recopilar\A información sobre una organización que podría estar planeando la destrucción del mundo, liderada por el nihilista Yorgi.";
+  content: "Xander Cage, un temerario adicto a la adrenalina con mala actitud, es reclutado a la fuerza por el gobierno de EE. UU. para una misión: infiltrarse y obtener información sobre una organización liderada por el nihilista Yorgi, que amenaza con destruir el mundo.";
   white-space: pre-line;
+}
+
+/* --- Estilos para pantallas medianas y pequeñas --- */
+@media (min-width: 375px) and (max-width: 1023px) {
+  .carousel-inner {
+    display: flex !important;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 10px;
+    height: 500px;
+  }
+  .carousel-item {
+    display: inline-flex !important;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: flex-start;
+    scroll-snap-align: start;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    height: 400px;
+  }
+  .carousel-item img {
+    width: 150px;
+    margin: 5px;
+    margin-top: 350px;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none !important;
+  }
+ 
+  
+  
+}
+@media (min-width: 1024px) {
+
+  .carousel-item {
+    flex: 0 0 20%; 
+    align-items: center;
+    height: 550px;
+    padding: 15px;
+    z-index: 2;
+    
+  }
+  .carousel-item img {
+    width: 18%; /* Imagen ocupa todo el espacio asignado */
+    height: auto;
+    margin-top: 230px; /* Para que no rompa el cálculo */
+  }
 }
