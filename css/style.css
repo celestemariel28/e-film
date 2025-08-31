@@ -111,4 +111,13 @@ header{
 .modal-contentent{
     color: black;
 }
-
+.color-fondo{
+  background-color: #00000059;
+}
+.navegacion ul {
+    list-style: none;
+    padding: 0;
+    & a {
+        color: white;
+    }
+}
