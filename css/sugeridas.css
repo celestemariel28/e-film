@@ -1,0 +1,195 @@
+
+.seccion-sugeridas{
+   background: #2D2C2C; 
+   position: relative;
+}
+.carousel-item{
+    height: 550px;
+    padding: 15px;
+    z-index: 2;
+}
+.carousel-item img{
+    width: 200px;
+    margin: 5px; 
+    margin-top: 200px;
+    
+}
+.carousel-item img:hover {
+    border: 5px solid #992E92;
+}
+
+
+.carousel-control-prev, .carousel-control-next{
+    margin-top: 200px;
+    z-index: 2;
+}
+.overlaysugerida{
+  position: absolute;
+  inset: 0;
+   background: linear-gradient(
+    to right,
+    #5e178ecb 0%,
+    rgba(0, 0, 0, 0.726) 30%,
+    rgba(0, 0, 0, 0.76) 70%,
+    #5e178ecb 100%
+  );
+  z-index: 1;
+}
+.titulo-pelis-sugeridas{
+    margin-top: 30px;
+}
+
+/*Esto le cambia el fondo a la tarjeta cuando alguna imagen dentro de ella está en hover.*/
+
+.seccion-sugeridas:has(.img1:hover) {
+    background-image: url("/assets/Sugeridas/36xXlhEpQqVVPuiZhfoQuaY4OlA.webp");
+    background-size: cover; 
+    background-position: center; 
+}
+.seccion-sugeridas:has(.img2:hover) {
+    background-image: url("/assets/Sugeridas/6H6p82aWQFEKEuVUiZll6JxV8Ft.webp");
+    background-size: cover; 
+    background-position: center; 
+}
+.seccion-sugeridas:has(.img3:hover) {
+    background-image: url("/assets/Sugeridas/dVsgV7ak6vR5xyXFggooJQinXBg.webp");
+    background-size: cover; 
+    background-position: center; 
+}
+.seccion-sugeridas:has(.img4:hover) {
+    background-image: url("/assets/Sugeridas/nLTs9SNBuk3DuB8D0p3mSsPYN7J.webp");
+    background-size: cover; 
+    background-position: center; 
+}
+.seccion-sugeridas:has(.img5:hover) {
+    background-image: url("/assets/Sugeridas/w2ARwtc1zoh0pyfwmyhpZHwuXgK.webp");
+    background-size: cover; 
+    background-position: center; 
+}
+.seccion-sugeridas:has(.img6:hover) {
+    background-image: url("/assets/Sugeridas/ombsmhYUqR4qqOLOxAyr5V8hbyv.webp");
+    background-size: cover; 
+    background-position: center; 
+}
+.seccion-sugeridas:has(.img7:hover) {
+    background-image: url("/assets/Sugeridas/tObSf1VzzHt9xB0csanFtb3DRjf.webp");
+    background-size: cover; 
+    background-position: center; 
+}
+.seccion-sugeridas:has(.img8:hover) {
+    background-image: url("/assets/Sugeridas/udxkpbqBsVS4Hnrfn4HabDKKxb5.webp");
+    background-size: cover; 
+    background-position: center; 
+}
+.seccion-sugeridas:has(.img9:hover) {
+    background-image: url("/assets/Sugeridas/uwvKQIjJpC37IEsEj4ZAn1ITyRy.webp");
+    background-size: cover; 
+    background-position:top; 
+}
+.seccion-sugeridas:has(.img10:hover) {
+    background-image: url("/assets/Sugeridas/xeEw3eLeSFmJgXZzmF2Efww0q3s.webp");
+    background-size: cover; 
+    background-position: center; 
+}
+
+/*Esta parte es para que cuando ahga hover por las imagenes aparezca el titulo de cada peli*/
+.descripcion-sugerida {
+  color: #fff;
+  font-size: 18px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.seccion-sugeridas:hover .descripcion-sugerida {
+  opacity: 1;
+}
+
+/* Texto dinámico según la imagen */
+.seccion-sugeridas:has(.img1:hover) .descripcion-sugerida::after {
+  content: "Merlina Addams, lista, sarcástica y un poco muerta por dentro, investiga una oleada de asesinatos mientras hace amigos y enemigos en la Academia Nunca Más.";
+  white-space: pre-line;
+}
+
+.seccion-sugeridas:has(.img2:hover) .descripcion-sugerida::after {
+  content: "La leyenda de las carreras Sonny Hayes es  convencido de salir de su retiro para liderar un equipo de Fórmula 1 en dificultades (y ser mentor de un joven piloto prometedor) mientras busca una oportunidad más de alcanzar la gloria.";
+  white-space: pre-line;
+}
+
+.seccion-sugeridas:has(.img3:hover) .descripcion-sugerida::after {
+  content: "Dos padres reciben una angustiosa llamada nocturna  de su hija adolescente, quien acaba de atropellar accidentalmente  a un peatón. Se suben a su coche a toda prisa para llegar antes  de que alguien más se tope con la escena. ";
+  white-space: pre-line;
+}
+.seccion-sugeridas:has(.img4:hover) .descripcion-sugerida::after {
+  content: "Lilli sospecha del nuevo prometido de su hermana,pero cuando  un atractivo extraño entra  en su vida, de repente se distrae con las garras del deseo.";
+  white-space: pre-line;
+}
+.seccion-sugeridas:has(.img5:hover) .descripcion-sugerida::after {
+  content: "Elio, un apasionado del espacio, vive una aventura cósmica donde debe relacionarse con extrañas formas de vida alienígenas, enfrentar una crisis intergaláctica y descubrir su verdadero destino.";
+  white-space: pre-line;
+}
+.seccion-sugeridas:has(.img6:hover) .descripcion-sugerida::after {
+  content: "Superman, un periodista en Metrópolis, se embarca en un viaje para reconciliar su herencia kryptoniana con su educación humana como Clark Kent.";white-space: pre-line;
+}
+.seccion-sugeridas:has(.img7:hover) .descripcion-sugerida::after {
+  content: "Tras la muerte de su padre, un hermano  y una hermana conocen a su nuevo hermano gracias a su madre adoptiva, solo  para descubrir que ella tiene un secreto aterrador.";
+  white-space: pre-line;
+}
+.seccion-sugeridas:has(.img8:hover) .descripcion-sugerida::after {
+  content: "Amanda Knox viaja a Italia para estudiar, pero pronto es encarcelada injustamente por asesinato. Narra su lucha por probar su inocencia y recuperar la libertad, mientras cuestiona el duro juicio de autoridades y del mundo.";
+  white-space: pre-line;
+}
+.seccion-sugeridas:has(.img9:hover) .descripcion-sugerida::after {
+  content: "Heather, una joven con la vida planificada, viaja por Europa con amigos. Allí conoce a Jack y comienza un romance inesperado que la lleva a un profundo descubrimiento emocional. Entre secretos y decisiones importantes, su destino da un giro definitivo.";
+  white-space: pre-line;
+}
+.seccion-sugeridas:has(.img10:hover) .descripcion-sugerida::after {
+  content: "Xander Cage, un temerario adicto a la adrenalina con mala actitud, es reclutado a la fuerza por el gobierno de EE. UU. para una misión: infiltrarse y obtener información sobre una organización liderada por el nihilista Yorgi, que amenaza con destruir el mundo.";
+  white-space: pre-line;
+}
+
+/* --- Estilos para pantallas medianas y pequeñas --- */
+@media (min-width: 375px) and (max-width: 1023px) {
+  .carousel-inner {
+    display: flex !important;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 10px;
+    height: 500px;
+  }
+  .carousel-item {
+    display: inline-flex !important;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: flex-start;
+    scroll-snap-align: start;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    height: 400px;
+  }
+  .carousel-item img {
+    width: 150px;
+    margin: 5px;
+    margin-top: 350px;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none !important;
+  }
+}
+@media (min-width: 1024px) {
+
+  .carousel-item {
+    flex: 0 0 20%; 
+    align-items: center;
+    height: 550px;
+    padding: 15px;
+    z-index: 2;
+    
+  }
+  .carousel-item img {
+    width: 18%; /* Imagen ocupa todo el espacio asignado */
+    height: auto;
+    margin-top: 230px; /* Para que no rompa el cálculo */
+  }
+}

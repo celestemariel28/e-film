@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="/assets/img/e-film.png" type="image/x-icon" />
+    <title>E-Film - Películas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/categorias.css">
+    <link rel="stylesheet" href="/css/peliculas.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+        <div class="container-fluid">   
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link d-flex align-items-center" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="bi bi-person-circle fs-3"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/pages/error404.html">Perfil</a></li>
+                  <li><a class="dropdown-item" href="/index.html">Cerrar Sesión</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categorías
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#comedia">Comedia</a></li>
+                  <li><a class="dropdown-item" href="#ciencia">Ciencia Ficción</a></li>
+                  <li><a class="dropdown-item" href="#drama">Drama</a></li>
+                </ul>
+              </li>
+             <li class="nav-item">
+                <a class="nav-link" href="#">Películas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Series</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="./error404.html">Privacidad</a>
+            </li>
+            </ul>
+          
+            <form class="d-flex" role="search">
+              <input class="form-control buscador  me-2 borde-formu" type="search" placeholder="Buscar películas y series" aria-label="Search"/>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+    </header>
+    <main>
+      <section
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+        data-bs-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active d-flex">
+            <img
+              src="/assets/series/s19.webp"
+              class="d-block w-25"
+              alt=""
+            />
+            <img
+              src="/assets/series/s22.webp"
+              class="d-block w-25"
+              alt=""
+            />
+            <img
+              src="/assets/series/serie7.webp"
+              class="d-block w-25"
+              alt=""
+            />
+            <img
+              src="/assets/series/huEeQQBmZsZ5qDXkWl0pS5vPWIU.webp"
+              class="d-block w-25"
+              alt=""
+            />
+          </div>
+          <div class="carousel-item d-flex">
+            <img
+              src="/assets/series/s20.webp"
+              class="d-block w-25"
+              alt="imagen 2"
+            />
+            <img
+              src="/assets/series/s21.webp"
+              class="d-block w-25"
+              alt="imagen 2"
+            />
+            <img
+              src="/assets/series/serie13.webp"
+              class="d-block w-25"
+              alt="imagen 2"
+            />
+            <img
+              src="/assets/series/sdrama.webp"
+              class="d-block w-25"
+              alt="imagen 2"
+            />
+          </div>
+          <div class="carousel-item d-flex">
+            <img
+              src="/assets/Sugeridas/36xXlhEpQqVVPuiZhfoQuaY4OlA.webp"
+              class="d-block w-25"
+              alt="imagen 3"
+            />
+            <img
+              src="/assets/series/serie8.webp"
+              class="d-block w-25"
+              alt="imagen 3"
+            />
+            <img
+              src="/assets/series/tg9I5pOY4M9CKj8U0cxVBTsm5eh.webp"
+              class="d-block w-25"
+              alt="imagen 3"
+            />
+            <img
+              src="/assets/series/serie18.jpg"
+              class="d-block w-25"
+              alt="imagen 3"
+            />
+          </div>
+          <div class="overlay d-flex flex-column justify-content-center align-items-center h-100 w-100">
+            <img src="/assets/img/e-film.png" alt="logo" width="200" >
+          </div>
+        </div>
+      </section>
+      <h2 id="comedia" class="titulo-seccion">Comedia</h2>
+
+    <section class="cards-container">
+      <article class="card">
+        <a href="/pages/error404.html"><img src="/assets/series/fc58873f-f4f6-4a72-a509-f6f2c2960674.jpg" alt="Serie 1"></a>
+      </article>
+
+      <article class="card">
+        <img src="/assets/series/2e80967b-f28b-4d97-89a5-71339e968033.jpg" alt="Serie 2">
+      </article>
+
+      <article class="card">
+        <img src="/assets/series/92ffaf1a-815a-4fa6-b034-29704cf11fd1.jpg" alt="Serie 3">
+      </article>
+
+      <article class="card">
+        <img src="/assets/series/huEeQQBmZsZ5qDXkWl0pS5vPWIU.webp" alt="Serie 4">
+      </article>
+
+      <article class="card">
+        <img src="/assets/series/b3cf8488-f15e-428e-b520-e09cc005f00d.jpg" alt="Serie 5">
+      </article>
+      <article class="card">
+        <img src="/assets/series/s19.webp" alt="Serie 6">
+      </article>
+    </section>
+    <h2 id="ciencia" class="titulo-seccion">Ciencia Ficción</h2>
+    <section class="cards-container">
+      <article class="card">
+        <a href="/pages/Silo.html"><img src="/assets/series/6fe459bc-1b92-4afb-b65d-a3f247388bfb.jpg" alt="Serie 1"></a>
+      </article>
+
+      <article class="card">
+        <img src="/assets/series/serie13.webp" alt="Serie 2">
+      </article>
+
+      <article class="card">
+        <img src="/assets/series/c4f1e2bf-b13c-41a6-a3da-11a828b960ad.jpg" alt="Serie 3">
+      </article>
+
+      <article class="card">
+        <img src="/assets/series/s20.webp" alt="Serie 4">
+      </article>
+
+      <article class="card">
+        <img src="/assets/series/f4c5b5ed-1fc3-44bc-b118-766a952f2597.jpg" alt="Serie 5">
+      </article>
+      <article class="card">
+        <img src="/assets/series/980bbd66-01a9-47cd-89dc-d76a081e4aac.jpg" alt="Serie 6">
+      </article>
+    </section>
+    <h2 id="drama" class="titulo-seccion">Drama</h2>
+    <section class="cards-container">
+      <article class="card">
+        <a href="/pages/PeakyB.html"><img src="/assets/series/ebebf9d7-a2f3-44bf-bdb7-9bbbe3d68abd.jpg" alt="Serie 1"></a>
+      </article>
+
+      <article class="card">
+        <img src="/assets/series/s21.webp" alt="Serie 2">
+      </article>
+
+      <article class="card">
+        <img src="/assets/series/WhatsApp Image 2025-08-30 at 22.17.41.jpeg" alt="Serie 3">
+      </article>
+
+      <article class="card">
+        <img src="/assets/series/s22.webp" alt="Serie 4">
+      </article>
+
+      <article class="card">
+        <img src="/assets/series/sdrama.webp" alt="Serie 5">
+      </article>
+      <article class="card">
+        <img src="/assets/series/serie8.webp" alt="Serie 6">
+      </article>
+    </section>
+      <section class="container container-categoria">
+        <div class="row text-center">
+          <div class="categoria-img col-12 col-md-4 col-lg-4">
+            <a href="#comedia"><i class="bi bi-emoji-smile" ></i>
+            <h3 class="text-white mt-2">Comedia</h3></a>
+          </div>
+          <div class="categoria-img col-12 col-md-4 col-lg-4">
+            <a href="#ciencia"><i class="bi bi-rocket-takeoff"></i>
+            <h3 class="text-white mt-2">Ciencia Ficción</h3></a>
+          </div>
+          <div class="categoria-img col-12 col-md-4 col-lg-4">
+            <a href="#drama"><i class="fas fa-theater-masks" ></i>
+            <h3 class="text-white texto-drama">Drama</h3></a>
+          </div>    
+         </div>
+      </section>
+        
+    </main>
+    <footer class="color-fondo">
+      <div class="container pt-3">
+        <div class="row text-center">
+          <div class="col-12 col-md-4 col-lg-4 p-0"> <a href="#"><img src="/assets/img/logo-e-filmm.png" alt="Logo e-Film" width="30%" class="logo-e-film"></a></div>
+          
+          <div class="col-12 col-md-4 col-lg-4 navegacion">
+            <ul>
+              <li><a href="#">Peliculas</a></li>
+              <li><a href="/pages/series.html">Series</a></li>
+              <li><a href="/pages/error404.html">Privacidad</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4 navegacion ">
+            <h4>Redes Sociales:</h4>
+            <ul class="d-flex flex-row justify-content-center">
+              <li>
+                <a href="./error404.html"
+                  ><i class="bi bi-facebook fs-3 mx-2 "></i></a>
+              </li>
+              <li>
+                <a href="./error404.html"
+                  ><i class="bi bi-instagram fs-3 mx-2"></i></a
+                >
+              </li>
+               <li>
+                <a href="./error404.html"
+                  ><i class="bi bi-twitter-x fs-3 mx-2"></i></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="text-center pb-3">   &copy; 2025 e-Film. Todos los derechos reservados.</div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
+
